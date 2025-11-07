@@ -1,0 +1,20 @@
+[
+  {
+    "id": "ctva-001",
+    "agent_id": "wallet_ABC123",
+    "robot_id": "robot-emu-001",
+    "poi": {"hash_hex": "abcd", "kind": "PoI"},
+    "poa": {"hash_hex": "ef01", "kind": "PoA"},
+    "eval": {"safety": 1.0, "notes": "cbc_ok"},
+    "ts": 1730900000
+  },
+  {
+    "id": "ctva-002",
+    "agent_id": "wallet_XYZ999",
+    "robot_id": "robot-emu-002",
+    "poi": {"hash_hex": "1122", "kind": "PoI"},
+    "poa": {"hash_hex": "3344", "kind": "PoA"},
+    "eval": {"safety": 0.9, "notes": "cbc_ok"},
+    "ts": 1730903600
+  }
+]

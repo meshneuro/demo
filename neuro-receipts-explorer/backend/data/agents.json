@@ -1,0 +1,5 @@
+[
+  {"agent_id": "wallet_ABC123", "status": "online", "location": "home:vienna"},
+  {"agent_id": "wallet_XYZ999", "status": "online", "location": "lab:munich"},
+  {"agent_id": "wallet_QWE555", "status": "offline", "location": "home:london"}
+]

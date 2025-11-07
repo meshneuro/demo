@@ -1,0 +1,17 @@
+## `pyproject.toml`
+
+```toml
+[project]
+name = "neuro-sdk-python"
+version = "0.1.0"
+description = "NeuroMesh Python SDK for agents, receipts (PoI/PoA), CTV/A, and data rights (DOC/PLID)."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "pydantic>=2.8",
+  "cryptography>=43.0",
+  "pyyaml>=6.0.1"
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
