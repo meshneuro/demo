@@ -54,7 +54,7 @@ $$
 I = \log N \times \bar{\beta} \times CI
 $$
 
-where $N$ is the number of active robots, $ \bar{\beta} $ is the useful message rate, and $ CI $ the coherence index derived from evaluator consensus.
+where $N$ is the number of active robots, $\bar{\beta}$ is the useful message rate, and $CI$ the coherence index derived from evaluator consensus.
 
 Safety invariants follow a simplified Control-Barrier-Certificate:
 
