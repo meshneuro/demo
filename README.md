@@ -7,10 +7,11 @@ Each agent runs autonomous reasoning loops (`sense → think → act → learn`)
 
 ---
 
-## ✳️ Architecture Overview
+## Architecture Overview
 
 At its core, the SDK emulates the **NeuroOS-H** stack:
 
+```
 ┌─────────────────────────────┐
 │ Agent Runtime (NeuroAgent)  │
 │  ├─ Perception (sense)      │
@@ -27,12 +28,13 @@ At its core, the SDK emulates the **NeuroOS-H** stack:
 │ Data Rights (DOC / PLID)    │
 │  └─ Tokenised Data Assets   │
 └─────────────────────────────┘
+```
 
 Each cognitive cycle emits a **CTV/A**, the atomic unit of verifiable intelligence in NeuroMesh.
 
 ---
 
-## ⚙️ Core Features
+## Core Features
 
 | Feature | Description |
 |----------|--------------|
@@ -44,27 +46,27 @@ Each cognitive cycle emits a **CTV/A**, the atomic unit of verifiable intelligen
 
 ---
 
-## 🔬 Mathematical Background
+## Mathematical Background
 
 The SDK models agentic intelligence density as
 
-\[
+$$
 I = \log N \times \bar{\beta} \times CI
-\]
+$$
 
 where \( N \) is the number of active robots, \( \bar{\beta} \) is the useful message rate, and \( CI \) the coherence index derived from evaluator consensus.
 
 Safety invariants follow a simplified Control-Barrier-Certificate:
 
-\[
+$$
 P_{\text{unsafe}} \le \varepsilon_s
-\]
+$$
 
 such that the agent’s actuation remains within its local safety manifold.
 
 ---
 
-## 🧩 Example Usage
+## Example Usage
 
 ```bash
 pip install -e .
@@ -92,9 +94,8 @@ NeuroMesh SDK establishes the substrate of tokenised intelligence—where every 
 
 ---
 
-## 🌐 **`neuro-receipts-explorer/README.md`**
+## **`neuro-receipts-explorer/README.md`**
 
-```markdown
 # NeuroMesh Receipts Explorer
 
 The **NeuroMesh Receipts Explorer** provides a visual interface for the **Decentralised Superbrain**—a mesh of humanoid agents, each producing cryptographically attested cognitive artefacts (CTV/A).
@@ -103,17 +104,19 @@ It integrates a lightweight **FastAPI backend** (mock data service) with a **Rea
 
 ---
 
-## 🧠 Conceptual Overview
+##  Conceptual Overview
 
+```
 Humanoid Robots ─► CTV/A Receipts ─► Mesh Nodes ─► Explorer Dashboard
 ↑                                    │
 └──── Proof-of-Inference / Proof-of-Action (PoI/PoA) ─────┘
+```
 
 Each entry in the dashboard corresponds to a verified *Composite Thought/Action Vector*, the fundamental RWA unit of NeuroMesh intelligence.
 
 ---
 
-## 🧩 System Architecture
+## System Architecture
 
 | Layer | Technology | Function |
 |--------|-------------|-----------|
@@ -126,7 +129,7 @@ The backend and frontend communicate over simple REST endpoints (`/health`, `/re
 
 ---
 
-## ⚙️ Running the Explorer
+## Running the Explorer
 
 ### A. Standalone
 ```bash
